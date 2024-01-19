@@ -66,6 +66,102 @@
         <div class="container">
           <h1 class="h-top-section">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
+
+          <!-- modal window -->
+          <div class="modal">
+            <div class="modal-window">
+              <button type="button" class="close-modal-btn">
+                <img
+                  class="btn-close-img"
+                  src="./images/close-black-.svg"
+                  alt=""
+                  width="8"
+                  height="8"
+                />
+              </button>
+              <h3 class="h-modal">
+                Leave your contacts and we will call you back
+              </h3>
+              <form class="contact-form">
+                <label class="form-lable">
+                  <p class="paragraph">Your name</p>
+                  <div class="input-container">
+                    <img src="./images/user.svg " alt="" class="imput-icon" />
+                    <input
+                      class="form-lable-imput"
+                      type="text"
+                      name="username"
+                      autofocus
+                    />
+                  </div>
+                </label>
+                <label class="form-lable">
+                  <p class="paragraph">Phone number</p>
+                  <div class="input-container">
+                    <img
+                      src="./images/phone-black-.svg "
+                      alt="imput-icon"
+                      class="imput-icon"
+                    />
+                    <input
+                      class="form-lable-imput"
+                      type="tel"
+                      name="phone"
+                      autofocus
+                    />
+                  </div>
+                </label>
+                <label class="form-lable">
+                  <p class="paragraph">Email</p>
+                  <div class="input-container">
+                    <img
+                      src="./images/email-black-.svg "
+                      alt="imput-icon"
+                      class="imput-icon"
+                    />
+                    <input
+                      class="form-lable-imput"
+                      type="email"
+                      name="email"
+                      autofocus
+                    />
+                  </div>
+                </label>
+                <label class="form-lable">
+                  <p class="paragraph">Comment</p>
+                  <textarea
+                    class="form-lable-imput"
+                    name="comment"
+                    placeholder="Text imput"
+                    rows="5"
+                    autofocus
+                  ></textarea>
+                </label>
+
+                <div class="form-field">
+                  <input
+                    class="checkbox"
+                    type="checkbox"
+                    name="answer"
+                    value="accept"
+                    id="accept"
+                  />
+                  <label for="accept">
+                    <p class="paragraph">
+                      I accept the terms and conditions of the
+                      <span
+                        ><a class="privat-policy-link" href="#"
+                          >Privacy Policy</a
+                        ></span
+                      >
+                    </p>
+                  </label>
+                </div>
+                <button class="button" type="submit">Send</button>
+              </form>
+            </div>
+            <div class="overlay"></div>
+          </div>
         </div>
       </section>
 
