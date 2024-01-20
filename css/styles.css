@@ -687,14 +687,6 @@ margin-left: 16px;
      margin-bottom: 4px;
  }
 
- .form-field .paragraph {
-     font-size: 12px;
-     color: #8E8F99;
-     letter-spacing: 0.02em;
-     line-height: 1.5;
-     margin: 0;
-
- }
 
  .form-field {
      display: flex;
@@ -702,6 +694,11 @@ margin-left: 16px;
      gap: 8px;
      margin-top: 16px;
      margin-bottom: 16px;
+    font-size: 12px;
+        color: #8E8F99;
+        letter-spacing: 0.02em;
+        line-height: 1.5;
+        margin: 0;
  }
 
  .privat-policy-link {
