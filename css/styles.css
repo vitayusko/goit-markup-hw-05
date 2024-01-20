@@ -627,12 +627,14 @@ margin-left: 16px;
     left:50%;
  }
 
- .h-modal {
+ .p-modal {
      letter-spacing: 0.02em;
      line-height: 1.5;
      color: #2e2f42;
      text-align: center;
      font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
  }
 
  .close-modal-btn {
@@ -647,6 +649,9 @@ margin-left: 16px;
      padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
  .close-modal-btn :hover {
@@ -665,8 +670,11 @@ margin-left: 16px;
  .contact-form {
      flex-direction: column;
      display: flex;
-     gap: 8px;
      align-items: flex-start;
+ }
+
+ .contact-form-label {
+    margin-bottom: 8px;
  }
 
  .form-lable {
