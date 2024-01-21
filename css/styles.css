@@ -662,7 +662,7 @@ margin-left: 16px;
 
  .close-modal-btn:hover .btn-close-img,
  .close-modal-btn:focus .btn-close-img {
-     fill: #ffffff;
+     fill: #4D5AE5;;
  }
 
  .btn-close-img {
@@ -775,7 +775,7 @@ margin-left: 16px;
      border-color: #4D5AE5;
  }
 
- .form-lable-imput-coment:focus {
+ .form-lable-imput-comment:focus {
      border-color: #4D5AE5;}
 
  .imput-icon {
