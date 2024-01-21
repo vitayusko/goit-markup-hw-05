@@ -782,11 +782,11 @@ margin-left: 16px;
      
  }
 
-  .form-lable-input:focus+.form-label-img-input .input-icon {
+  .form-lable-input:focus+.input-icon {
      fill: #4D5AE5;
  }
 
- .user-privacy {
+  .user-privacy {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
