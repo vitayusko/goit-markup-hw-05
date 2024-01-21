@@ -637,58 +637,55 @@
                 name="user-name"
                 autofocus
               />
-              <svg class="imput-icon" width="24" height="24">
+              <svg class="imput-icon" width="18" height="24">
                 <use href="./images/modal-icons.svg#icon-user-"></use>
               </svg>
             </div>
           </div>
           <div class="contact-form-label">
-            <label class="form-lable">
-              Phone
-              <div class="form-label-img-imput">
-                <svg class="imput-icon" width="24" height="24">
-                  <use href="./images/modal-icons.svg#icon-phone-black"></use>
-                </svg>
-                <input class="form-lable-imput" type="tel" name="phone" />
-              </div>
-            </label>
+            <label class="form-lable"> Phone</label>
+            <div class="form-label-img-imput">
+              <svg class="imput-icon" width="18" height="24">
+                <use href="./images/modal-icons.svg#icon-phone-black"></use>
+              </svg>
+              <input class="form-lable-imput" type="tel" name="phone" />
+            </div>
           </div>
           <div class="contact-form-label">
-            <label class="form-lable">
-              Email
-              <div class="form-label-img-imput">
-                <svg class="imput-icon" width="24" height="24">
-                  <use href="./images/modal-icons.svg#icon-email-black-"></use>
-                </svg>
-                <input class="form-lable-imput" type="email" name="email" />
-              </div>
-            </label>
+            <label class="form-lable"> Email</label>
+            <div class="form-label-img-imput">
+              <svg class="imput-icon" width="18" height="24">
+                <use href="./images/modal-icons.svg#icon-email-black-"></use>
+              </svg>
+              <input class="form-lable-imput" type="email" name="email" />
+            </div>
           </div>
-          <label class="form-lable" for="user-comment">
-            Comment
+          <div class="contact-form-label">
+            <label class="form-lable" for="user-comment"> Comment</label>
             <div class="form-label-img-imput">
               <textarea
                 id="user-comment"
-                class="form-lable-imput"
+                class="form-lable-imput-coment"
                 name="comment"
                 placeholder="Text imput"
                 rows="5"
               ></textarea>
             </div>
-          </label>
+          </div>
 
           <div class="form-field">
             <input
+              id="user-privacy"
               class="checkbox"
               type="checkbox"
-              name="answer"
-              value="accept"
+              name="user-privacy"
+              value="true"
               id="accept"
             />
-            <label for="accept">
+            <label class="user-privacy" for="user-privacy">
               I accept the terms and conditions of the
-              <span
-                ><a class="privat-policy-link" href="#">Privacy Policy</a></span
+              <span class="privat-policy-link"
+                ><a href="#">Privacy Policy</a></span
               >
             </label>
           </div>
