@@ -628,50 +628,55 @@
         <p class="p-modal">Leave your contacts and we will call you back</p>
         <form class="contact-form">
           <div class="contact-form-label">
+            <label class="form-lable" for="user-name">
+              Name
+              <div class="form-label-img-imput">
+                <svg class="imput-icon" width="24" height="24">
+                  <use href="./images/modal-icons.svg#icon-user-"></use>
+                </svg>
+                <input
+                  id="user-name"
+                  class="form-lable-imput"
+                  type="text"
+                  name="user-name"
+                  autofocus
+                />
+              </div>
+            </label>
+          </div>
+          <div class="contact-form-label">
             <label class="form-lable">
-              <span class="paragraph">Your name</span>
-
-              <img src="./images/user.svg " alt="" class="imput-icon" />
-              <input
+              Phone
+              <div class="form-label-img-imput">
+                <svg class="imput-icon" width="24" height="24">
+                  <use href="./images/modal-icons.svg#icon-phone-black"></use>
+                </svg>
+                <input class="form-lable-imput" type="tel" name="phone" />
+              </div>
+            </label>
+          </div>
+          <div class="contact-form-label">
+            <label class="form-lable">
+              Email
+              <div class="form-label-img-imput">
+                <svg class="imput-icon" width="24" height="24">
+                  <use href="./images/modal-icons.svg#icon-email-black-"></use>
+                </svg>
+                <input class="form-lable-imput" type="email" name="email" />
+              </div>
+            </label>
+          </div>
+          <label class="form-lable" for="user-comment">
+            Comment
+            <div class="form-label-img-imput">
+              <textarea
+                id="user-comment"
                 class="form-lable-imput"
-                type="text"
-                name="username"
-                autofocus
-              />
-            </label>
-          </div>
-          <div class="contact-form-label">
-            <label class="form-lable">
-              <span class="paragraph">Phone number</span>
-
-              <img
-                src="./images/phone-black-.svg "
-                alt="imput-icon"
-                class="imput-icon"
-              />
-              <input class="form-lable-imput" type="tel" name="phone" />
-            </label>
-          </div>
-          <div class="contact-form-label">
-            <label class="form-lable">
-              <span class="paragraph">Email</span>
-
-              <img
-                src="./images/email-black-.svg "
-                alt="imput-icon"
-                class="imput-icon"
-              />
-              <input class="form-lable-imput" type="email" name="email" />
-            </label>
-          </div>
-          <label class="form-lable">
-            <span class="paragraph">Comment</span>
-            <textarea
-              class="form-lable-imput"
-              name="comment"
-              placeholder="Text imput"
-              rows="5"
-            ></textarea>
+                name="comment"
+                placeholder="Text imput"
+                rows="5"
+              ></textarea>
+            </div>
           </label>
 
           <div class="form-field">
