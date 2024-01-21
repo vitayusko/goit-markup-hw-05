@@ -853,11 +853,11 @@ margin-left: 16px;
      border: none;
  }
 
- .checkbox:checked+label .custom-checkbox .checkbox-icon {
-     fill: #F4F4FD;
- }
-
  .checkbox:focus+label .custom-checkbox,
  .checkbox:hover+label .custom-checkbox {
      border-color: #4D5AE5;
+ }
+
+ .checkbox:checked+label .custom-checkbox .checkbox-icon {
+     fill: #F4F4FD;
  }
