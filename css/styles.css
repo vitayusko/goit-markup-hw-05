@@ -846,3 +846,18 @@ margin-left: 16px;
      clip: rect(0, 0, 0, 0);
      border: 0;
  }
+/* checked-checkbox */
+
+ .checkbox:checked+label .custom-checkbox {
+     background-color: #404bbf;
+     border: none;
+ }
+
+ .checkbox:checked+label .custom-checkbox .checkbox-icon {
+     fill: #F4F4FD;
+ }
+
+ .checkbox:focus+label .custom-checkbox,
+ .checkbox:hover+label .custom-checkbox {
+     border-color: #4D5AE5;
+ }
