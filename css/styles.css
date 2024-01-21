@@ -782,7 +782,7 @@ margin-left: 16px;
      
  }
 
- .form-label-input:focus+.input-icon {
+  .form-lable-input:focus+.form-label-img-input .input-icon {
      fill: #4D5AE5;
  }
 
@@ -855,4 +855,8 @@ margin-left: 16px;
 
  .checkbox:checked+label .custom-checkbox .checkbox-icon {
      fill: #F4F4FD;
+ }
+
+ .checkbox:checked+.user-privacy .custom-checkbox {
+     fill: var(--checkbox-checked-fill-color, #F4F4FD);
  }
