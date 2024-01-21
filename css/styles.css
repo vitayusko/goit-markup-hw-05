@@ -609,16 +609,10 @@ margin-left: 16px;
 
  .modal-window {
      position: absolute;
-     z-index: 2;
      width: 408px;
      min-height: 584px;
      border-radius: 4px;
-     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-         0px 1px 1px rgba(46, 47, 66, 0.16),
-         0px 2px 1px rgba(46, 47, 66, 0.08);
-     ;
      background-color: #FCFCFC;
-    
      padding: 72px 24px 24px 24px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -699,7 +693,7 @@ margin-left: 16px;
 
  }
 
- .form-label-img-imput {
+ .form-label-img-input {
     position: relative;
  }
 
@@ -726,7 +720,7 @@ margin-left: 16px;
 
  }
 
- .form-lable-imput {
+ .form-lable-input {
      border: 1px solid rgba(46, 47, 66, 0.4);
      border-radius: 4px;
      background-color: transparent;
@@ -739,7 +733,7 @@ margin-left: 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
- .form-lable-imput-comment {
+ .form-lable-input-comment {
     border: 1px solid rgba(46, 47, 66, 0.4);
         border-radius: 4px;
         background-color: transparent;
@@ -771,20 +765,21 @@ margin-left: 16px;
      outline-offset: 0px;
  }
 
- .form-lable-imput:focus{
+ .form-lable-input:focus{
      border-color: #4D5AE5;
  }
 
- .form-lable-imput-comment:focus {
+ .form-lable-input-comment:focus {
      border-color: #4D5AE5;}
 
- .imput-icon {
+ .input-icon {
      position: absolute;
      left: 16px;
      top: 50%;
      height: 24px;
      transform: translateY(-50%);
      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     
  }
 
   .form-label-input:focus+.input-icon {
